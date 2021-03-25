@@ -1,22 +1,15 @@
-# exchange
+# 匯率換算網站
+> 此專案作品為串接API製作簡易的匯率轉換網站。
 
-> A Vue.js project
+## DEMO
 
-## Build Setup
+[exchange](https://chiaohu.github.io/exchange-rate-web/dist/#/)
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# exchange-rate-web
+### 簡介
+此專案運用了
+* Vue cli webpack
+* 載入bootstrap與scss樣式
+* 將Navbar製作成component
+* 應用computed功能即時計算匯率轉換
+* 可切換至不同匯率頁面
+* 串接買入與賣出的api資料
