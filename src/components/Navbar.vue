@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-md sticky-top navbar-light bg-warning fixed-top">
+    <nav class="navbar navbar-expand sticky-top navbar-light bg-warning fixed-top">
       <router-link class="navbar-brand" to="/">EXchange</router-link>
       <button
         class="navbar-toggler"
